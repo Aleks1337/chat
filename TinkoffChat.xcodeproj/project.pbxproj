@@ -13,6 +13,7 @@
 		469A54871F7577C800EF74E4 /* TinkoffChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 469A54851F7577C800EF74E4 /* TinkoffChat.xcdatamodeld */; };
 		469A54891F7577C800EF74E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469A54881F7577C800EF74E4 /* Assets.xcassets */; };
 		469A548C1F7577C800EF74E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469A548A1F7577C800EF74E4 /* LaunchScreen.storyboard */; };
+		46A2DA161F76D1160055E8F6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2DA151F76D1160055E8F6 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		469A54881F7577C800EF74E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469A548B1F7577C800EF74E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		469A548D1F7577C800EF74E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A2DA151F76D1160055E8F6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				469A548A1F7577C800EF74E4 /* LaunchScreen.storyboard */,
 				469A548D1F7577C800EF74E4 /* Info.plist */,
 				469A54851F7577C800EF74E4 /* TinkoffChat.xcdatamodeld */,
+				46A2DA151F76D1160055E8F6 /* Media.xcassets */,
 			);
 			path = TinkoffChat;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				469A548C1F7577C800EF74E4 /* LaunchScreen.storyboard in Resources */,
 				469A54891F7577C800EF74E4 /* Assets.xcassets in Resources */,
+				46A2DA161F76D1160055E8F6 /* Media.xcassets in Resources */,
 				469A54841F7577C800EF74E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
