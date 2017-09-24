@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		469A547F1F7577C800EF74E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A547E1F7577C800EF74E4 /* AppDelegate.swift */; };
-		469A54811F7577C800EF74E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A54801F7577C800EF74E4 /* ViewController.swift */; };
-		469A54841F7577C800EF74E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469A54821F7577C800EF74E4 /* Main.storyboard */; };
+		469A54811F7577C800EF74E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469A54801F7577C800EF74E4 /* ProfileViewController.swift */; };
+		469A54841F7577C800EF74E4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469A54821F7577C800EF74E4 /* Profile.storyboard */; };
 		469A54871F7577C800EF74E4 /* TinkoffChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 469A54851F7577C800EF74E4 /* TinkoffChat.xcdatamodeld */; };
 		469A54891F7577C800EF74E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469A54881F7577C800EF74E4 /* Assets.xcassets */; };
 		469A548C1F7577C800EF74E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469A548A1F7577C800EF74E4 /* LaunchScreen.storyboard */; };
@@ -19,8 +19,8 @@
 /* Begin PBXFileReference section */
 		469A547B1F7577C800EF74E4 /* TinkoffChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469A547E1F7577C800EF74E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		469A54801F7577C800EF74E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		469A54831F7577C800EF74E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469A54801F7577C800EF74E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		469A54831F7577C800EF74E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		469A54861F7577C800EF74E4 /* TinkoffChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinkoffChat.xcdatamodel; sourceTree = "<group>"; };
 		469A54881F7577C800EF74E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469A548B1F7577C800EF74E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				469A547E1F7577C800EF74E4 /* AppDelegate.swift */,
-				469A54801F7577C800EF74E4 /* ViewController.swift */,
-				469A54821F7577C800EF74E4 /* Main.storyboard */,
+				469A54801F7577C800EF74E4 /* ProfileViewController.swift */,
+				469A54821F7577C800EF74E4 /* Profile.storyboard */,
 				469A54881F7577C800EF74E4 /* Assets.xcassets */,
 				469A548A1F7577C800EF74E4 /* LaunchScreen.storyboard */,
 				469A548D1F7577C800EF74E4 /* Info.plist */,
@@ -132,7 +132,7 @@
 				469A548C1F7577C800EF74E4 /* LaunchScreen.storyboard in Resources */,
 				469A54891F7577C800EF74E4 /* Assets.xcassets in Resources */,
 				46A2DA161F76D1160055E8F6 /* Media.xcassets in Resources */,
-				469A54841F7577C800EF74E4 /* Main.storyboard in Resources */,
+				469A54841F7577C800EF74E4 /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469A54811F7577C800EF74E4 /* ViewController.swift in Sources */,
+				469A54811F7577C800EF74E4 /* ProfileViewController.swift in Sources */,
 				469A547F1F7577C800EF74E4 /* AppDelegate.swift in Sources */,
 				469A54871F7577C800EF74E4 /* TinkoffChat.xcdatamodeld in Sources */,
 			);
@@ -152,12 +152,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		469A54821F7577C800EF74E4 /* Main.storyboard */ = {
+		469A54821F7577C800EF74E4 /* Profile.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				469A54831F7577C800EF74E4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 		469A548A1F7577C800EF74E4 /* LaunchScreen.storyboard */ = {
