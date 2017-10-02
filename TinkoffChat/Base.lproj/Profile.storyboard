@@ -30,14 +30,15 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzR-XT-4cX">
                                                 <rect key="frame" x="285" y="260" width="90" height="90"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6w-N6-tbk">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6w-N6-tbk">
                                                         <rect key="frame" x="18" y="17" width="64" height="58"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="58" id="ePE-Jb-E2B"/>
                                                         </constraints>
-                                                        <state key="normal" title="Button" backgroundImage="slr-camera-2-xxl"/>
+                                                        <state key="normal" image="slr-camera-2-xxl"/>
                                                     </button>
                                                 </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="c6w-N6-tbk" secondAttribute="trailing" id="O8Y-iJ-HmV"/>
                                                     <constraint firstAttribute="bottomMargin" secondItem="c6w-N6-tbk" secondAttribute="bottom" constant="7" id="cCj-LW-Cku"/>
@@ -130,7 +131,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="placeholder-user" width="600" height="600"/>
-        <image name="slr-camera-2-xxl" width="256" height="256"/>
+        <image name="placeholder-user" width="300" height="300"/>
+        <image name="slr-camera-2-xxl" width="128" height="128"/>
     </resources>
 </document>
