@@ -9,44 +9,44 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    @IBOutlet var profileView: UIView!
+    
+    @IBOutlet weak var editButtonUIButtonView: UIButton!
+    
+    @IBInspectable weak var layerForTakePhotoUIButton: UIView! {
+        didSet {
+            layerForTakePhotoUIButton.layer.cornerRadius = layerForTakePhotoUIButton.bounds.height / 2
+        }
+    }
+    
+    @IBInspectable weak var editButtonUIButton: UIButton! {
+        didSet {
+            editButtonUIButton.layer.cornerRadius = editButtonUIButton.bounds.height / 4
+            editButtonUIButton.layer.borderWidth = 1
+            editButtonUIButton.layer.borderColor = UIColor.black.cgColor
+        }
+    }
+    
+    @IBInspectable weak var profilePhotoUIImage: UIImageView! {
+        didSet {
+            profilePhotoUIImage.layer.cornerRadius = layerForTakePhotoUIButton.bounds.height / 2
+        }
+    }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       super.viewDidLoad()
+        print(editButtonUIButton.frame)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("View to be added to a view hierarchy method: " + #function)
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("View was added to a view hierarchy method: " + #function)
+        print(editButtonUIButton.frame)
     }
     
-    override func viewWillLayoutSubviews() {
-        print("View becomes visible method: " + #function)
+    // MARK: Actions
+    
+    @IBAction func takePhoto(_ sender: UIButton) {
+        print("Выбери изображение профиля")
     }
     
-    override func viewDidLayoutSubviews() {
-        print("View has just laid out its subviews method: " + #function)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("View to be removed from a view hierarchy method: " + #function)
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        print("View was removed from a view hierarchy method: " + #function)
-    }
 }
 

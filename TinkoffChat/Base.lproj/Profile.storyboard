@@ -23,7 +23,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZQ-LY-o6E">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="354"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-user" translatesAutoresizingMaskIntoConstraints="NO" id="QPu-jX-fb4">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-user" translatesAutoresizingMaskIntoConstraints="NO" id="QPu-jX-fb4">
                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="354"/>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4b2-7I-bDU">
@@ -40,6 +40,9 @@
                                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <state key="disabled" image="slr-camera-2-xxl"/>
+                                                        <connections>
+                                                            <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="faC-g5-FUv"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -94,6 +97,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nz3-Ne-KxL">
                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="40"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="agD-E5-tSu"/>
                                                 </constraints>
@@ -126,6 +130,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JQi-J3-K5u"/>
                     </view>
+                    <connections>
+                        <outlet property="editButtonUIButton" destination="Nz3-Ne-KxL" id="qx7-bo-RSg"/>
+                        <outlet property="editButtonUIButtonView" destination="Nz3-Ne-KxL" id="nsK-fe-0WO"/>
+                        <outlet property="layerForTakePhotoUIButton" destination="4b2-7I-bDU" id="CR4-bA-L28"/>
+                        <outlet property="profilePhotoUIImage" destination="QPu-jX-fb4" id="M6F-Ni-rpt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
